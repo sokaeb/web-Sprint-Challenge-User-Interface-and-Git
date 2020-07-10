@@ -66,6 +66,37 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header .logo {
+    width: 20%;
+    margin: 2% 0;
+}
+
+/* header div img {
+    border: 1px solid red;
+} */
+
+header img {
+    width: 100%;
+    margin: 2% 0 2%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +143,37 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .one {
+    background: teal;
+}
+.middle-content .boxes .two {
+    background: gold;
+}
+.middle-content .boxes .three {
+    background: cadetblue;
+}
+.middle-content .boxes .four {
+    background: coral;
+}
+.middle-content .boxes .five {
+    background: crimson;
+}
+.middle-content .boxes .six {
+    background: forestgreen;
+}
+.middle-content .boxes .seven {
+    background: darkorchid;
+}
+.middle-content .boxes .eight {
+    background: hotpink;
+}
+.middle-content .boxes .nine {
+    background: indigo;
+}
+.middle-content .boxes .ten {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +186,47 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about {
+    padding: 2%;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+}
+
+.learn {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.learn .picbox {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;  
+    margin-bottom: 7%;
+}
+
+.learn .picbox h3 {
+    margin: 5% 0;
+}
+
+.learn .picbox .more {
+    border: 2px solid black;
+    border-radius: 0.5em;
+    margin: 5% 0;
+    width: 40%;
+    padding: 0.75em;
+}   
+
+.learn .picbox .more a {
+    margin-left: 15%;
+}
+
+.work .together {
+    margin-left: 3%;
+    margin-bottom: 5%;
 }
 
 footer {
