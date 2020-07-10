@@ -77,14 +77,13 @@ header nav {
 }
 
 header .logo {
-    /* border: 1px solid green; */
     width: 20%;
     margin: 2% 0;
 }
 
-header div img {
-    /* border: 1px solid red; */
-}
+/* header div img {
+    border: 1px solid red;
+} */
 
 header img {
     width: 100%;
@@ -92,7 +91,6 @@ header img {
 }
 
 .links {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -211,7 +209,6 @@ header img {
 }
 
 .learn .picbox h3 {
-    /* border: 1px solid red; */
     margin: 5% 0;
 }
 
@@ -224,7 +221,6 @@ header img {
 }   
 
 .learn .picbox .more a {
-    /* border: 1px solid red; */
     margin-left: 15%;
 }
 
